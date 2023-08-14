@@ -1,0 +1,52 @@
+.headerBanner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #8cabff;
+}
+
+.searchContainer {
+  width: 30%;
+  display: flex;
+  align-items: center;
+}
+
+.inputBar {
+  padding: 5px;
+  /* margin-right: 10px; */
+  width: 100%;
+}
+
+.navBar ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  justify-content: space-evenly;
+}
+
+.navBar ul a {
+  flex: 1;
+  margin-right: 10px;
+  padding: 10;
+  justify-content: space-evenly;
+  display: inline-flex;
+}
+
+.searchButton {
+  width: 20%;
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.cartButton {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}

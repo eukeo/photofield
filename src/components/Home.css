@@ -1,0 +1,7 @@
+.bestSeller {
+  width: 25%;
+}
+
+.bestSeller > img {
+  width: 100%;
+}
