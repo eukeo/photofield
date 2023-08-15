@@ -5,9 +5,27 @@ const Home = () => {
     <div className="homeContainer">
       <div className="homeBanner">
         <h1 className="siteName">PhotoField</h1>
+        <h4 className="slogan">
+          Your Ultimate Destination for Photography Products
+        </h4>
         <img src="https://wallpapercave.com/wp/wp1845526.jpg"></img>
       </div>
+      <section className="aboutSection">
+        <h1>About</h1>
+        At PhotoField, we're passionate about photography just like you. Our
+        mission is to provide photographers of all levels with top-notch
+        equipment that empowers them to tell their visual stories. With years of
+        experience and a deep understanding of the industry, we curate a diverse
+        range of products that cater to your unique needs.
+      </section>
       <div className="productPreview">
+        <section className="productsText">
+          Unleash your creativity with our carefully selected lineup of
+          photography products. From cutting-edge cameras to versatile lenses,
+          tripods, lighting solutions, and more – we offer tools that transform
+          ordinary scenes into extraordinary captures. Browse our featured
+          products and embark on a journey to capture moments like never before.
+        </section>
         <div className="bestSeller">
           <h1>Best Seller</h1>
           <img src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6323/6323759_sd.jpg;maxHeight=640;maxWidth=550"></img>
@@ -32,11 +50,20 @@ const Home = () => {
           <h2>$29.74</h2>
         </div>
       </div>
-      <div className="adContainer">
-        <div className="leftAd">
-          <img src="https://d1rzxhvrtciqq1.cloudfront.net/uploads/images/listingimage/586445/image/big-90a2603ec444ec215b2405cb816691ec.png"></img>
-        </div>
-      </div>
+      <section className="ads">
+        <img src="https://store.bandccamera.com/cdn/shop/products/prism-lens-fx-cine-soft-12-fx-filter-77mm-105399.png?v=1677944711&width=1390"></img>
+        <img src="https://res.cloudinary.com/codegrand/image/upload/v1629800764/nw6u45hcj6cee9xyyeyl.png"></img>
+        <img src="https://prismlensfx.com/cdn/shop/products/IMG_8137_1800x1800.jpg?v=1658096395"></img>
+        <img src="https://media.karousell.com/media/photos/products/2021/10/30/dream_fx_filter_82mm_1635589936_ad7b9b73_progressive.jpg"></img>
+        <img src="https://magazin.photosynthesis.bg/192358-large_default/filtur-prism-lens-fx-prizm-lens-fx-dream.jpg"></img>
+      </section>
+      <section className="productsText">
+        Unleash your creativity with our carefully selected lineup of
+        photography products. From cutting-edge cameras to versatile lenses,
+        tripods, lighting solutions, and more – we offer tools that transform
+        ordinary scenes into extraordinary captures. Browse our featured
+        products and embark on a journey to capture moments like never before.
+      </section>
       <footer>
         <ul>
           <h6>About</h6>
