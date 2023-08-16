@@ -1,11 +1,18 @@
 import "./Home.css";
+import Aos from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 const Home = () => {
+  useEffect(() => {
+    Aos.init({ duration: 3000 });
+  }, []);
+
   return (
     <div className="homeContainer">
-      <div className="fourSquareContainer">
+      <div className="fourSquareContainer" data-aos="fade-in">
         <div className="homeBanner__square1">
-          <h1 className="siteName">PhotoField</h1>
+          <h1 className="siteName">photofield</h1>
           <h4 className="slogan">
             Your Ultimate Destination for Photography Products
           </h4>
@@ -31,7 +38,7 @@ const Home = () => {
           </h4>
         </div>
         <div className="homeBanner__square4">
-          <h4>Browse Filters</h4>
+          <h4>browse filters</h4>
           <img src="https://i.ytimg.com/vi/fuU-QM2ZnUs/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCqBslO5RDVUVAWjLyw0Ap-sgrBiwg"></img>
         </div>
       </div>
@@ -43,7 +50,7 @@ const Home = () => {
           ordinary scenes into extraordinary captures. Browse our featured
           products and embark on a journey to capture moments like never before.
         </section> */}
-        <div className="bestSeller">
+        <div className="bestSeller" data-aos="fade-up" data-aos-duration="2000">
           <h1>Best Seller</h1>
           <img src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6323/6323759_sd.jpg;maxHeight=640;maxWidth=550"></img>
           <h4>
@@ -52,7 +59,7 @@ const Home = () => {
           </h4>
           <h2>$549.99</h2>
         </div>
-        <div className="dealDay">
+        <div className="dealDay" data-aos="fade-up" data-aos-duration="2000">
           <h1>Deal of the Day</h1>
           <img src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6323/6323758_sd.jpg;maxHeight=640;maxWidth=550"></img>
           <h4>
@@ -60,14 +67,18 @@ const Home = () => {
           </h4>
           <h2>$399.99</h2>
         </div>
-        <div className="newArrival">
+        <div className="newArrival" data-aos="fade-up" data-aos-duration="2000">
           <h1>New Arrival</h1>
           <img src="https://m.media-amazon.com/images/I/81Pp8uMX80L._AC_SL1500_.jpg"></img>
           <h4>Walking Way's 1/4 Black Pro Mist Diffusion Filter 67mm</h4>
           <h2>$29.74</h2>
         </div>
       </div>
-      <section className="aboutSection">
+      <section
+        className="aboutSection"
+        data-aos="fade-up"
+        data-aos-duration="2000"
+      >
         <h1>About</h1>
         At PhotoField, we're passionate about photography just like you. Our
         mission is to provide photographers of all levels with top-notch
@@ -75,21 +86,14 @@ const Home = () => {
         experience and a deep understanding of the industry, we curate a diverse
         range of products that cater to your unique needs.
       </section>
-      <section className="ads">
+      <section className="ads" data-aos="fade-in" data-aos-duration="2000">
         <img src="https://store.bandccamera.com/cdn/shop/products/prism-lens-fx-cine-soft-12-fx-filter-77mm-105399.png?v=1677944711&width=1390"></img>
         <img src="https://res.cloudinary.com/codegrand/image/upload/v1629800764/nw6u45hcj6cee9xyyeyl.png"></img>
         <img src="https://prismlensfx.com/cdn/shop/products/IMG_8137_1800x1800.jpg?v=1658096395"></img>
         <img src="https://media.karousell.com/media/photos/products/2021/10/30/dream_fx_filter_82mm_1635589936_ad7b9b73_progressive.jpg"></img>
         <img src="https://magazin.photosynthesis.bg/192358-large_default/filtur-prism-lens-fx-prizm-lens-fx-dream.jpg"></img>
       </section>
-      <section className="productsText">
-        Unleash your creativity with our carefully selected lineup of
-        photography products. From cutting-edge cameras to versatile lenses,
-        tripods, lighting solutions, and more – we offer tools that transform
-        ordinary scenes into extraordinary captures. Browse our featured
-        products and embark on a journey to capture moments like never before.
-      </section>
-      <footer>
+      <footer data-aos="fade-left" data-aos-duration="2000">
         <ul>
           <h6>About</h6>
           <h6>Contact</h6>
