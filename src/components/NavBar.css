@@ -6,49 +6,84 @@
   background-color: #171717;
 }
 
+.cornerLogo {
+  font-family: "Major Mono Display", monospace;
+  color: white;
+  text-decoration: none;
+}
+
 .searchContainer {
-  width: 30%;
-  display: flex;
   align-items: center;
+  width: 20%;
+  display: flex;
 }
 
 .inputBar {
-  padding: 5px;
-  /* margin-right: 10px; */
+  flex: 1;
+  padding: 0px 15px 0px 15px;
+  border-radius: 15px;
+  background-color: #fafafa;
+  border: 0;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+  transition: 0.3s box-shadow;
+}
+
+form {
   width: 100%;
+  display: inline-flex;
+}
+
+.searchButton > img {
+  padding-left: 10px;
+  padding-top: 4px;
+  width: 30px;
+  height: 30px;
 }
 
 .navBar ul {
-  display: flex;
+  padding: 10px;
   list-style: none;
-  margin: 0;
-  padding: 0;
+  margin: 5px;
   justify-content: space-evenly;
 }
 
 .navBar ul a {
+  font-family: "Major Mono Display", monospace;
   text-decoration: none;
   color: white;
   flex: 1;
-  margin-right: 10px;
-  padding: 10;
+  margin: 20px 55px 20px 0px;
   justify-content: space-evenly;
-  display: inline-flex;
+  display: inline-block;
+  flex-direction: row;
+  font-size: 12px;
 }
 
-.searchButton {
-  width: 20%;
-  padding: 5px 10px;
-  background-color: #007bff;
-  color: white;
-  border: none;
+.cartButton > a > img {
+  margin-right: 10px;
+  width: 35px;
+  height: 35px;
   cursor: pointer;
 }
 
-.cartButton {
-  padding: 5px 10px;
-  background-color: #007bff;
-  color: white;
-  border: none;
+.inputBar:hover {
+  filter: brightness(87%);
+}
+
+.navBar ul a:hover {
+  filter: brightness(30%);
+}
+
+.cornerLogo:hover {
+  filter: brightness(30%);
+}
+
+.searchButton > img:hover {
   cursor: pointer;
+  filter: brightness(30%);
+}
+
+.cartButton > a:hover {
+  cursor: pointer;
+  filter: brightness(30%);
 }

@@ -4,22 +4,31 @@ import "./NavBar.css";
 const NavBar = () => {
   return (
     <header className="headerBanner">
-      <h6>Logo</h6>
+      <Link to="/" className="cornerLogo">
+        photofield
+      </Link>
       <div className="searchContainer">
-        <input type="text" className="inputBar" placeholder="Search"></input>
-        <button className="searchButton">Search</button>
+        <form>
+          <input type="text" className="inputBar" placeholder="Search"></input>
+          <a className="searchButton">
+            <img src="https://icon-library.com/images/search-icon-white-png/search-icon-white-png-18.jpg"></img>
+          </a>
+        </form>
       </div>
       <nav className="navBar">
         <ul>
-          <Link to="/">Home</Link>
-          <Link to="allproducts">All Products</Link>
-          <Link to="cameras">Cameras</Link>
-          <Link to="lenses">Lenses</Link>
-          <Link to="accessories">Accessories</Link>
-          <Link to="hotdeals">Hot Deals</Link>
+          <Link to="allproducts">all products</Link>
+          <Link to="cameras">cameras</Link>
+          <Link to="lenses">lenses</Link>
+          <Link to="accessories">accessories</Link>
+          <Link to="hotdeals">hot deals</Link>
         </ul>
       </nav>
-      <button className="cartButton">Cart</button>
+      <div className="cartButton">
+        <a>
+          <img src="https://iconsplace.com/wp-content/uploads/_icons/ffffff/256/png/shopping-basket-icon-18-256.png"></img>
+        </a>
+      </div>
     </header>
   );
 };

@@ -31,10 +31,9 @@ const Home = () => {
           <h4>
             Unleash your creativity with our carefully selected lineup of
             photography products. From cutting-edge cameras to versatile lenses,
-            tripods, lighting solutions, and more - we offer tools that
-            transform ordinary scenes into extraordinary captures. Browse our
-            featured products and embark on a journey to capture moments like
-            never before.
+            filters, and more - we offer tools that transform ordinary scenes
+            into extraordinary captures. Browse our featured products and embark
+            on a journey to capture moments like never before.
           </h4>
         </div>
         <div className="homeBanner__square4">
@@ -42,14 +41,11 @@ const Home = () => {
           <img src="https://i.ytimg.com/vi/fuU-QM2ZnUs/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCqBslO5RDVUVAWjLyw0Ap-sgrBiwg"></img>
         </div>
       </div>
-      <div className="productPreview">
-        {/* <section className="productsText">
-          Unleash your creativity with our carefully selected lineup of
-          photography products. From cutting-edge cameras to versatile lenses,
-          tripods, lighting solutions, and more – we offer tools that transform
-          ordinary scenes into extraordinary captures. Browse our featured
-          products and embark on a journey to capture moments like never before.
-        </section> */}
+      <div
+        className="productPreview"
+        data-aos="fade-in"
+        data-aos-duration="2000"
+      >
         <div className="bestSeller" data-aos="fade-up" data-aos-duration="2000">
           <h1>Best Seller</h1>
           <img src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6323/6323759_sd.jpg;maxHeight=640;maxWidth=550"></img>
