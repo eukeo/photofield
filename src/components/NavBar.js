@@ -5,7 +5,7 @@ const NavBar = () => {
   return (
     <header className="headerBanner">
       <Link to="/" className="cornerLogo">
-        photofield
+        PhotoField
       </Link>
       <div className="searchContainer">
         <form>

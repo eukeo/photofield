@@ -14,13 +14,13 @@ const Home = () => {
         <div className="homeBanner__square1">
           <h1 className="siteName">photofield</h1>
           <h4 className="slogan">
-            Your Ultimate Destination for Photography Products
+            your ultimate destination for photography products
           </h4>
           <img src="https://wallpapercave.com/wp/wp1845526.jpg"></img>
         </div>
         <div className="homeBanner__square2">
           <h4>
-            Discover a world of premium photography gear and accessories that
+            discover a world of premium photography gear and accessories that
             will elevate your creative journey. Whether you're a professional
             photographer or an enthusiastic hobbyist, we have everything you
             need to capture life's moments with unparalleled precision and
@@ -29,10 +29,10 @@ const Home = () => {
         </div>
         <div className="homeBanner__square3">
           <h4>
-            Unleash your creativity with our carefully selected lineup of
+            unleash your creativity with our carefully selected lineup of
             photography products. From cutting-edge cameras to versatile lenses,
             filters, and more - we offer tools that transform ordinary scenes
-            into extraordinary captures. Browse our featured products and embark
+            into extraordinary captures. browse our featured products and embark
             on a journey to capture moments like never before.
           </h4>
         </div>
@@ -75,10 +75,10 @@ const Home = () => {
         data-aos="fade-up"
         data-aos-duration="2000"
       >
-        <h1>About</h1>
-        At PhotoField, we're passionate about photography just like you. Our
+        <h2>about</h2>
+        at photofield, we're passionate about photography just like you. our
         mission is to provide photographers of all levels with top-notch
-        equipment that empowers them to tell their visual stories. With years of
+        equipment that empowers them to tell their visual stories. with years of
         experience and a deep understanding of the industry, we curate a diverse
         range of products that cater to your unique needs.
       </section>
@@ -89,13 +89,10 @@ const Home = () => {
         <img src="https://media.karousell.com/media/photos/products/2021/10/30/dream_fx_filter_82mm_1635589936_ad7b9b73_progressive.jpg"></img>
         <img src="https://magazin.photosynthesis.bg/192358-large_default/filtur-prism-lens-fx-prizm-lens-fx-dream.jpg"></img>
       </section>
-      <footer data-aos="fade-left" data-aos-duration="2000">
-        <ul>
-          <h6>About</h6>
-          <h6>Contact</h6>
-          <h6>Careers</h6>
-          <h6>Products</h6>
-        </ul>
+      <footer data-aos="fade-in" data-aos-duration="2000">
+        <h1>photofield</h1>
+        <h6>About</h6>
+        <h6>Contact</h6>
       </footer>
     </div>
   );
