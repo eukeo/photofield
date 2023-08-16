@@ -1,5 +1,5 @@
 body {
-  background-color: #222222;
+  background-color: #1a1a1a;
   color: white;
 }
 
@@ -12,28 +12,95 @@ body {
   flex-direction: row;
 }
 
-.siteName {
-  z-index: 1;
-  font-size: 54px;
+.fourSquareContainer {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+}
+
+/* .siteName {
   position: absolute;
-  top: 50%;
-  left: 14%;
-  transform: translate(-50%, -50%);
+  font-size: 54px;
+  margin: auto;
+  z-index: 1;
+  width: 70%;
+  padding-top: 10%;
+  padding-left: 8%;
 }
 
 .slogan {
+  left: 21%;
   z-index: 1;
   position: absolute;
-  top: 60%;
-  left: 18%;
+  top: 40%;
   transform: translate(-50%, -50%);
+} */
+
+.homeBanner__square1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.homeBanner > img {
+.homeBanner__square1 > h1 {
+  position: absolute;
+  margin: auto;
+  z-index: 1;
+  font-size: 54px;
+}
+
+.homeBanner__square1 > h4 {
+  position: absolute;
+  margin: auto;
+  z-index: 1;
+  margin-top: 5%;
+}
+
+.homeBanner__square1 > img {
   width: 100%;
   z-index: -1;
-  /* filter: blur(14px); */
-  filter: brightness(40%);
+  filter: brightness(35%);
+}
+
+.homeBanner__square2 {
+  text-align: left;
+  align-items: center;
+  width: 100%;
+}
+
+.homeBanner__square2 > h4 {
+  margin: auto;
+  width: 70%;
+  padding-top: 20%;
+}
+
+.homeBanner__square3 {
+  width: 100%;
+}
+
+.homeBanner__square3 > h4 {
+  margin: auto;
+  width: 70%;
+  padding-top: 20%;
+}
+
+.homeBanner__square4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.homeBanner__square4 > h4 {
+  position: absolute;
+  font-size: 54px;
+  margin: auto;
+  z-index: 1;
+}
+
+.homeBanner__square4 > img {
+  z-index: -1;
+  width: 100%;
+  filter: brightness(45%);
 }
 
 .aboutSection {

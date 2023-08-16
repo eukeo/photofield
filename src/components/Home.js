@@ -3,29 +3,46 @@ import "./Home.css";
 const Home = () => {
   return (
     <div className="homeContainer">
-      <div className="homeBanner">
-        <h1 className="siteName">PhotoField</h1>
-        <h4 className="slogan">
-          Your Ultimate Destination for Photography Products
-        </h4>
-        <img src="https://wallpapercave.com/wp/wp1845526.jpg"></img>
+      <div className="fourSquareContainer">
+        <div className="homeBanner__square1">
+          <h1 className="siteName">PhotoField</h1>
+          <h4 className="slogan">
+            Your Ultimate Destination for Photography Products
+          </h4>
+          <img src="https://wallpapercave.com/wp/wp1845526.jpg"></img>
+        </div>
+        <div className="homeBanner__square2">
+          <h4>
+            Discover a world of premium photography gear and accessories that
+            will elevate your creative journey. Whether you're a professional
+            photographer or an enthusiastic hobbyist, we have everything you
+            need to capture life's moments with unparalleled precision and
+            artistry.
+          </h4>
+        </div>
+        <div className="homeBanner__square3">
+          <h4>
+            Unleash your creativity with our carefully selected lineup of
+            photography products. From cutting-edge cameras to versatile lenses,
+            tripods, lighting solutions, and more - we offer tools that
+            transform ordinary scenes into extraordinary captures. Browse our
+            featured products and embark on a journey to capture moments like
+            never before.
+          </h4>
+        </div>
+        <div className="homeBanner__square4">
+          <h4>Browse Filters</h4>
+          <img src="https://i.ytimg.com/vi/fuU-QM2ZnUs/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCqBslO5RDVUVAWjLyw0Ap-sgrBiwg"></img>
+        </div>
       </div>
-      <section className="aboutSection">
-        <h1>About</h1>
-        At PhotoField, we're passionate about photography just like you. Our
-        mission is to provide photographers of all levels with top-notch
-        equipment that empowers them to tell their visual stories. With years of
-        experience and a deep understanding of the industry, we curate a diverse
-        range of products that cater to your unique needs.
-      </section>
       <div className="productPreview">
-        <section className="productsText">
+        {/* <section className="productsText">
           Unleash your creativity with our carefully selected lineup of
           photography products. From cutting-edge cameras to versatile lenses,
           tripods, lighting solutions, and more – we offer tools that transform
           ordinary scenes into extraordinary captures. Browse our featured
           products and embark on a journey to capture moments like never before.
-        </section>
+        </section> */}
         <div className="bestSeller">
           <h1>Best Seller</h1>
           <img src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6323/6323759_sd.jpg;maxHeight=640;maxWidth=550"></img>
@@ -50,6 +67,14 @@ const Home = () => {
           <h2>$29.74</h2>
         </div>
       </div>
+      <section className="aboutSection">
+        <h1>About</h1>
+        At PhotoField, we're passionate about photography just like you. Our
+        mission is to provide photographers of all levels with top-notch
+        equipment that empowers them to tell their visual stories. With years of
+        experience and a deep understanding of the industry, we curate a diverse
+        range of products that cater to your unique needs.
+      </section>
       <section className="ads">
         <img src="https://store.bandccamera.com/cdn/shop/products/prism-lens-fx-cine-soft-12-fx-filter-77mm-105399.png?v=1677944711&width=1390"></img>
         <img src="https://res.cloudinary.com/codegrand/image/upload/v1629800764/nw6u45hcj6cee9xyyeyl.png"></img>
