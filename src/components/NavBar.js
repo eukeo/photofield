@@ -20,6 +20,7 @@ const NavBar = () => {
           <Link to="allproducts">all products</Link>
           <Link to="cameras">cameras</Link>
           <Link to="lenses">lenses</Link>
+          <Link to="filters">filters</Link>
           <Link to="accessories">accessories</Link>
           <Link to="hotdeals">hot deals</Link>
         </ul>
