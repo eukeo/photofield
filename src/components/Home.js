@@ -2,6 +2,8 @@ import "./Home.css";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import { Link } from "react-router-dom";
+import LifeThroughALens from "./LifeThroughALens";
 
 const Home = () => {
   useEffect(() => {
@@ -36,10 +38,12 @@ const Home = () => {
             on a journey to capture moments like never before.
           </h4>
         </div>
-        <div className="homeBanner__square4">
-          <h4>browse filters</h4>
-          <img src="https://i.ytimg.com/vi/fuU-QM2ZnUs/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCqBslO5RDVUVAWjLyw0Ap-sgrBiwg"></img>
-        </div>
+        <Link to="lifethroughalens" element={<LifeThroughALens />}>
+          <div className="homeBanner__square4">
+            <h4>life through a lens</h4>
+            <img src="https://i.ytimg.com/vi/fuU-QM2ZnUs/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCqBslO5RDVUVAWjLyw0Ap-sgrBiwg"></img>
+          </div>
+        </Link>
       </div>
       <div
         className="productPreview"
@@ -48,12 +52,13 @@ const Home = () => {
       >
         <div className="bestSeller" data-aos="fade-up" data-aos-duration="2000">
           <h1>Best Seller</h1>
-          <img src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6323/6323759_sd.jpg;maxHeight=640;maxWidth=550"></img>
+          <img src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6522/6522416cv18d.jpg;maxHeight=2000;maxWidth=2000"></img>
           <h4>
-            Canon - EOS Rebel T7 DSLR Video Two Lens Kit with EF-S 18-55mm and
-            EF 75-300mm Lenses
+            Sony - ZV-1F Vlog Camera for Content Creators and Vloggers - Black
           </h4>
-          <h2>$549.99</h2>
+          <div className="priceContainer">
+            <h2>$549.99</h2>
+          </div>
         </div>
         <div className="dealDay" data-aos="fade-up" data-aos-duration="2000">
           <h1>Deal of the Day</h1>
@@ -61,13 +66,18 @@ const Home = () => {
           <h4>
             Canon - EOS Rebel T7 DSLR Video Camera with 18-55mm Lens - Black
           </h4>
-          <h2>$399.99</h2>
+          <div className="priceContainer">
+            <h2>$399.99</h2>
+            <h5>$459.99</h5>
+          </div>
         </div>
         <div className="newArrival" data-aos="fade-up" data-aos-duration="2000">
           <h1>New Arrival</h1>
           <img src="https://m.media-amazon.com/images/I/81Pp8uMX80L._AC_SL1500_.jpg"></img>
           <h4>Walking Way's 1/4 Black Pro Mist Diffusion Filter 67mm</h4>
-          <h2>$29.74</h2>
+          <div className="priceContainer">
+            <h2>$29.74</h2>
+          </div>
         </div>
       </div>
       <section

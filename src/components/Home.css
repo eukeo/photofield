@@ -28,7 +28,7 @@ body {
   position: absolute;
   margin: auto;
   z-index: 1;
-  font-size: 52px;
+  font-size: 36px;
   font-family: "Major Mono Display", monospace;
 }
 
@@ -80,6 +80,7 @@ body {
 }
 
 .homeBanner__square4 > h4 {
+  color: white;
   position: absolute;
   font-size: 36px;
   margin: auto;
@@ -116,16 +117,19 @@ body {
 }
 
 .bestSeller {
+  text-align: center;
   align-items: center;
   width: 20%;
   padding: 10px;
 }
 
 .bestSeller > img {
-  width: 55%;
+  margin: auto;
+  width: 50%;
 }
 
 .dealDay {
+  text-align: center;
   padding: 10px;
   width: 20%;
 }
@@ -134,7 +138,18 @@ body {
   width: 55%;
 }
 
+.priceContainer {
+  display: inline-flex;
+}
+
+.priceContainer > h5 {
+  color: red;
+  text-decoration: line-through;
+  padding-left: 10px;
+}
+
 .newArrival {
+  text-align: center;
   padding: 10px;
   width: 20%;
 }
